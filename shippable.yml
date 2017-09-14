@@ -8,7 +8,7 @@ build:
  ci:
   - mkdir -p $HOME/bin
   - curl -fsSL https://testspace-client.s3.amazonaws.com/testspace-linux-dev.tgz | tar -zxvf- -C $HOME/bin
-  - testspace config url http://ivailo.stridespace.com
+  - testspace config url http://sandio.stridespace.com
   - testspace -v
   - apt-get update
   - apt-get install cmake
